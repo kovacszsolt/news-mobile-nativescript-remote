@@ -1,1 +1,2 @@
-# news-mobile-nativescript-remote
+# news-mobile-nativescript-remote  
+tns preview --bundle

@@ -1,0 +1,10 @@
+StackLayout.odd {
+    background-color: dodgerblue;
+}
+StackLayout.even {
+    background-color: deepskyblue;
+}
+StackLayout Label.title {
+    font-weight: bold;
+    text-decoration: underline;
+}

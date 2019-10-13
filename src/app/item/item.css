@@ -1,0 +1,18 @@
+StackLayout {
+    margin:10
+}
+StackLayout Label.title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 5;
+}
+.my-button {
+    android-elevation: 4;
+    background-color: lightseagreen;
+    border-color: darkolivegreen;
+    border-radius: 20;
+    border-width: 1;
+    color: whitesmoke;
+    font-size: 18;
+    font-weight: bold;
+}
