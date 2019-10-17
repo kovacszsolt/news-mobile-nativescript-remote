@@ -1,0 +1,31 @@
+/*
+StackLayout.odd {
+    background-color: dodgerblue;
+}
+StackLayout.even {
+    background-color: deepskyblue;
+}
+
+ */
+StackLayout Label.title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+StackLayout.card {
+    margin-top: 10;
+    background-color: lightgray;
+    border-color: darkgray;
+    border-width: 1;
+}
+StackLayout.tags {
+    background-color: lightgray;
+    padding-top: 10;
+    padding-bottom: 3;
+    flex-wrap: wrap;
+}
+Button {
+
+    font-size: 20;
+    padding-left: 10;
+}

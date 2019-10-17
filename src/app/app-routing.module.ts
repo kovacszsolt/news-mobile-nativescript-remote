@@ -3,20 +3,19 @@ import { Routes } from "@angular/router";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import {RootComponent} from "~/app/root/root.component";
 import {ItemComponent} from "~/app/item/item.component";
-/*
-const routes: Routes = [
-    { path: "", redirectTo: "/home", pathMatch: "full" },
-    { path: "home", loadChildren: () => import("~/app/home/home.module").then((m) => m.HomeModule) }
-];
+import {TagComponent} from '~/app/tag/tag.component';
 
- */
 const routes: Routes = [
     { path: "",
         component: RootComponent
     },
     { path: "item/:slug",
         component: ItemComponent
+    },
+    { path: "tag/:tag",
+        component: TagComponent
     }
+
 ];
 @NgModule({
     imports: [NativeScriptRouterModule.forRoot(routes)],

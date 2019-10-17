@@ -6,6 +6,8 @@ import { AppComponent } from "./app.component";
 import {HttpClientModule} from "@angular/common/http";
 import {RootComponent} from "~/app/root/root.component";
 import {ItemComponent} from "~/app/item/item.component";
+import {CardComponent} from '~/app/card/card.component';
+import {TagComponent} from '~/app/tag/tag.component';
 
 @NgModule({
     bootstrap: [
@@ -20,7 +22,9 @@ import {ItemComponent} from "~/app/item/item.component";
     declarations: [
         AppComponent,
         RootComponent,
-        ItemComponent
+        ItemComponent,
+        CardComponent,
+        TagComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA

@@ -1,0 +1,8 @@
+<StackLayout orientation="vertical" (tap)="onItemTap($event)" class="card" >
+    <Label [text]="'sss'+item.meta.title" class="list-group-item title" [textWrap]="true" ></Label>
+    <Label [text]="item.meta.description" class="list-group-item"></Label>
+    <Image src="{{item.meta.imageUrl}}" height="100" stretch="aspectFill"></Image>
+</StackLayout>
+<StackLayout orientation="horizontal" class="tags">
+    <Button *ngFor="let tag of item.tags" [text]="tag" (tap)="onTagTap(tag)"></Button>
+</StackLayout>
