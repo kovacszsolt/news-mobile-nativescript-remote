@@ -19,13 +19,13 @@ export class CardComponent implements OnInit {
     }
 
     onItemTap(args: ItemEventData) {
-        this.router.navigate(["item", this.item.meta.slug]);
+        this.router.navigate(["/item", this.item.meta.slug]);
     }
 
 
     onTagTap(args) {
         console.log('args',args);
-        this.router.navigate(["tag", args]);
+        this.router.navigate(["/tag", args]);
     }
 
 }
