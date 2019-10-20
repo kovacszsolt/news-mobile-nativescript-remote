@@ -1,10 +1,12 @@
+<Page class="page">
+    <Page.actionBar>
+        <ActionBar class="action-bar" [title]="'IT Crowd . Hu '+tag "></ActionBar>
+    </Page.actionBar>
+</Page>
 <GridLayout class="page">
-
-
     <ListView [items]="items" class="list-group" (loadMoreItems)="loadMoreItems()">
         <ng-template let-item="item" let-i="index">
             <Card [item]="item"></Card>
-
         </ng-template>
     </ListView>
 </GridLayout>

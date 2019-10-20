@@ -1,3 +1,9 @@
+<Page class="page">
+    <Page.actionBar>
+        <ActionBar class="action-bar" [title]="item.meta.title">
+        </ActionBar>
+    </Page.actionBar>
+</Page>
 <StackLayout orientation="vertical">
     <Label [text]="item.meta.title" class="list-group-item title" [textWrap]="true"></Label>
     <Image src="{{item.meta.imageUrl}}" height="100" stretch="aspectFill"></Image>
